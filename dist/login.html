@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/login.min.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src = "js/require.js" async = "true" defer data-main = "js/main"></script>
+</head>
+<body class = "iconfont">
+	<div class = "back">
+		<article>
+			<div class = "login1">
+				<span>登录</span>
+				<a href="">原官网账号登录</a>
+			</div>
+			<div id = "page1">
+				<form action="">
+					<p id = "hint1"></p>
+					<input type="text" placeholder="请输入手机号" id = "phoneNum1">
+					<input type="text" placeholder="请输入密码" id = "password1">
+					<a href="">&#xe607;</a>
+				</form>
+				<aside>
+					<i id = "logo_g"></i>
+					<span>十天内免登录</span>
+					<a href="">忘记密码？</a>
+				</aside>
+				<a href="javascript:void(0)" id = "login">立即登录</a>
+				<footer>
+					<span>还没有amigo账号？</span>
+					<a href="javascript:void(0)" id = "toPage2">立即注册</a>
+				</footer>
+			</div>
+
+			<!-- 立即注册 -->
+
+			<div class = "login2">
+				<span>注册</span>
+				<a href="">登录</a>
+				<div class = "step">
+					<div class = "dot"></div>
+					<div class = "solid next"></div>
+					<div class = "dot next"></div>
+					<div class = "solid"></div>
+					<div class = "dot"></div>
+				</div>
+			</div>
+			
+			<div id = "page2">
+				<form action="">
+					<p id = "hint2"></p>
+					<input type="text" placeholder="请输入手机号" id = "phoneNum2">
+					<input type="text" placeholder="请输入验证码" id = "code">
+					<div id = "random"></div>
+					<a href="javascript:void(0)" id = "change">换一个</a>
+				</form>
+				<footer>
+					<a href="javascript:void(0)" id = "toPage3">下一步</a>
+				</footer>
+			</div>
+			<div id = "page3">
+				<form action="">
+					<p id = "hint3"></p>
+					<input type="text" placeholder="请输入6-16位数字与字母组合密码密码" id = "password">
+					<input type="text" placeholder="请再次输入密码" id = "repassword">
+					<input type="text" placeholder="请输入短信验证码" id = "note">
+					<div id = "msg">获取验证码(<span>60</span>)</div>
+					<p>已向手机  137********  发送短信，请输入短信验证码</p>
+				</form>
+				<footer>
+					<a href="javascript:void(0)">下一步</a>
+				</footer>
+			</div>
+		</article>
+	</div>
+</body>
+</html>

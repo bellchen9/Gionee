@@ -1,0 +1,302 @@
+ul, li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+body, html, header, p, h1, h2, h3, h4, img, ul, li, ol, div, nav, form, input, span, i, a {
+  margin: 0;
+  padding: 0;
+  font-weight: 500; }
+
+.back {
+  width: 1240px;
+  height: 715px;
+  margin: 0 auto;
+  background: url(../images/back.jpg) no-repeat center;
+  position: relative; }
+
+.back article {
+  width: 340px;
+  height: 362px;
+  position: absolute;
+  left: 776px;
+  top: 270px;
+  background: #fdfdfd; }
+
+.back article #page1 {
+  position: absolute;
+  left: 340px;
+  opacity: 0.3; }
+
+.back article .login1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 41px;
+  width: 300px; }
+
+.back article .login1 span {
+  color: #ff9000;
+  font-size: 20px; }
+
+.back article .login1 a {
+  display: block;
+  color: #888;
+  margin-right: 40px;
+  padding-right: 30px;
+  float: right;
+  font-size: 14px;
+  margin-top: 5px;
+  background: url(../images/logo.jpg) no-repeat right 3px; }
+
+.back article #page1 form {
+  height: 170px;
+  margin-top: 56px;
+  margin-left: 28px;
+  position: relative; }
+
+.back article #page1 form p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 13px;
+  color: #f20b40; }
+
+.back article #page1 form input {
+  width: 278px;
+  height: 47px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background: #fdfdfd;
+  color: #999;
+  outline: none; }
+
+.back article #page1 form a {
+  position: absolute;
+  right: 22px;
+  bottom: -3px;
+  color: #000;
+  display: block;
+  font-size: 16px; }
+
+.back article #page1 aside {
+  height: 50px;
+  margin-bottom: 7px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #bbb;
+  padding: 0 20px; }
+
+.back article #page1 aside a {
+  color: #bbb;
+  float: right; }
+
+.back article #page1 aside i {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #d7d7d7;
+  float: left;
+  margin: 15px 10px 0 0; }
+
+.back article #page1 #login {
+  display: block;
+  width: 280px;
+  height: 47px;
+  border-radius: 5px;
+  background: #ff9b19;
+  color: #fff;
+  font-size: 16px;
+  line-height: 47px;
+  text-align: center;
+  margin-left: 33px; }
+
+.back article #page1 footer {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px; }
+
+.back article #page1 footer span {
+  color: #666;
+  margin-right: 10px; }
+
+.back article #page1 footer a {
+  color: #ff9b19;
+  text-decoration: underline; }
+
+.back article .login2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  width: 340px;
+  display: none; }
+
+.back article #page2 {
+  position: absolute;
+  display: none;
+  left: 340px;
+  top: 64px;
+  opacity: 0.3;
+  width: 340px;
+  display: none; }
+
+.back article .login2 span {
+  padding-left: 41px;
+  color: #888; }
+
+.back article .login2 a {
+  display: block;
+  color: #ff9000;
+  margin-right: 40px;
+  padding-right: 30px;
+  float: right;
+  background: url(../images/logo_h.jpg) no-repeat right 5px; }
+
+.back article .login2 .step {
+  height: 5px;
+  padding: 13px 0 11px 30px; }
+
+.back article .login2 .step div {
+  float: left; }
+
+.back article .login2 .step .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: #efefef; }
+
+.back article .login2 .step .dot:nth-child(1) {
+  background: #ff9000; }
+
+.back article .login2 .step .solid {
+  width: 116px;
+  height: 2px;
+  margin: 2px 8px;
+  background: #efefef; }
+
+.back article #page2 form {
+  padding-left: 27px;
+  height: 166px;
+  width: 313px; }
+
+.back article #page2 form p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 13px;
+  color: #f20b40;
+  width: 313px; }
+
+.back article #page2 form input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  margin-bottom: 28px;
+  padding-left: 10px;
+  background: #fdfdfd;
+  color: #999;
+  outline: none; }
+
+.back article #page2 form input:nth-child(2) {
+  width: 280px; }
+
+.back article #page2 form input:nth-child(3) {
+  width: 160px;
+  float: left; }
+
+.back article #page2 form div {
+  width: 67px;
+  height: 25px;
+  background: #838967;
+  float: left;
+  margin: 6px 0 0 12px;
+  line-height: 25px;
+  text-align: center; }
+
+.back article #page2 form a {
+  float: left;
+  line-height: 37px;
+  font-size: 12px;
+  padding-left: 12px;
+  color: #aeaeae; }
+
+.back article #page2 footer a {
+  display: block;
+  width: 280px;
+  height: 47px;
+  border-radius: 5px;
+  background: #ff9b19;
+  color: #fff;
+  font-size: 16px;
+  line-height: 47px;
+  text-align: center;
+  margin-left: 33px;
+  margin-top: 55px; }
+
+.back article #page3 {
+  position: absolute;
+  display: none;
+  left: 340px;
+  top: 64px;
+  opacity: 0.3;
+  width: 340px; }
+
+.back article #page3 form {
+  padding-left: 27px;
+  height: 166px;
+  width: 313px; }
+
+.back article #page3 form p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 13px;
+  color: #868686;
+  width: 313px; }
+
+.back article #page3 form #hint3 {
+  color: #f20b40; }
+
+.back article #page3 form input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  background: #fdfdfd;
+  color: #999;
+  outline: none;
+  width: 280px; }
+
+.back article #page3 form input:nth-child(4) {
+  width: 165px; }
+
+.back article #page3 form div {
+  float: right;
+  width: 100px;
+  height: 37px;
+  border-radius: 5px;
+  background: #cacaca;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  margin-right: 20px;
+  font-size: 12px; }
+
+.back article #page3 footer a {
+  display: block;
+  width: 280px;
+  height: 47px;
+  border-radius: 5px;
+  background: #ff9b19;
+  color: #fff;
+  font-size: 16px;
+  line-height: 47px;
+  text-align: center;
+  margin-left: 33px;
+  margin-top: 55px; }
